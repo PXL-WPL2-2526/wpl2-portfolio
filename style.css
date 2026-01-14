@@ -276,6 +276,9 @@ footer img{
 
 /* -- MOBILE -- */
 @media (max-width: 900px){
+    .bloem1, .bloem2, .bloem3, .bloem4 img{
+        display: none;
+    }
     nav ul{
         flex-direction: column;
         gap: 2rem;
@@ -283,9 +286,7 @@ footer img{
     nav li{
         text-align: right;
     }
-    .bloem1, .bloem2, .bloem3, .bloem4 img{
-        display: none;
-    }
+
     .groen-vlak {
         display: none;
     }

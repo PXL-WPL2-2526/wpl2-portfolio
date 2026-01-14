@@ -283,3 +283,66 @@ footer img{
     gap: 1rem;
     width: 407px;
 }
+
+/* -- MOBILE -- */
+@media (max-width: 900px){
+    .bloem1, .bloem2, .bloem3, .bloem4 img{
+        display: none;
+    }
+    .talen{
+        flex-direction: column;
+        align-items: center;
+        gap: 5rem;
+        width: auto;
+    }
+    .sterren h2{
+        font-size: 50px;
+    }
+    .lijst li{
+        font-size: 32px;
+        padding-top: 1rem;
+    }
+    .stars img{
+        width: 36px;
+        height: 36px;
+    }
+
+    .interesses{
+        width: auto;
+        height: auto;
+        margin: auto 2rem;
+        margin-bottom: 6rem;
+    }
+    .interesses h2{
+        font-size: 50px;
+        padding-bottom: 3rem;
+    }
+    .icons img{
+        width: 90px;
+        height: 90px;
+    }
+    .tekst li{
+        font-size: 36px;
+        padding-bottom: 6.3rem;
+    }
+
+    .werkervaring .jobs{
+        flex-direction: column;
+        gap: 5rem;
+    }
+    .werkervaring h2{
+        font-size: 50px;
+    }
+    .bakker h3, .bar h3, .magazijn h3{
+        font-size: 26px;
+    }
+
+    .vaardigheden h2{
+        font-size: 50px;
+    }
+    .photoshop, .illustrator, .indesign, .web{
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+}
