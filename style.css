@@ -291,7 +291,7 @@ footer img{
     }
     .portfolio h1{
         font-size: 120px;
-        position: static; /* of relative */
+        position: static;
         margin: 25rem auto;
         width: auto;
     }
@@ -311,6 +311,52 @@ footer img{
     .info p{
         width: auto;
         padding: 1rem;
+    }
+
+    .richting h2{
+        font-size: 50px;
+        width: auto;
+        padding: 1rem;
+    }
+    .richting p{
+        width: auto;
+        padding: 1rem;
+    }
+
+    .vibes{
+        height: auto;
+        padding: 4rem 0;
+    }
+    .vibes h2{
+        font-size: 80px;
+        position: static;
+        margin-bottom: 100rem;
+    }
+    .afbeeldingen-vibes{
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .designer{
+        flex-direction: column;
+        margin: 5rem 2rem;
+    }
+    .designer-info{
+        width: auto;
+        height: auto;
+    }
+    .designer-info h2{
+        font-size: 50px;
+        width: auto;
+        padding: 1rem;
+    }
+    .designer-info p{
+        width: auto;
+        padding: 1rem;
+    }
+    .designer img{
+        position: static;
+        margin-top: 3rem;
     }
 
 
