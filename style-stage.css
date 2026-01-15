@@ -338,3 +338,43 @@ footer img{
     gap: 1rem;
     width: 407px;
 }
+
+
+/* -- MOBILE -- */
+@media (max-width: 900px) {
+    .b-bloem1, .b-bloem2, .t-bloem1, .t-bloem2, .bloem4 img {
+        display: none;
+    }
+    header h1 {
+        font-size: 90px;
+        margin-left: 2rem;
+        width: auto;
+    }
+    .info p{
+        font-size: 32px;
+        width: auto;
+    }
+    .budapest h2, .tanzania h2{
+        font-size: 90px;
+        width: auto;
+        margin: 1rem;
+    }
+    .b-foto1, .b-foto2, .b-foto3, .t-foto1, .t-foto2, .t-foto3{
+        flex-direction: column;
+        align-items: center;
+        gap: 5rem;
+        margin: 2rem;
+        font-size: 32px;
+    }
+    .b-foto1 p, .b-foto2 p, .b-foto3 p, .t-foto1 p, .t-foto2 p, .t-foto3 p{
+        width: auto;
+        text-align: center;
+        margin: 2rem;
+        font-size: 32px;
+    }
+    .b-foto1 img, .b-foto2 img, .b-foto3 img, .t-foto1 img, .t-foto2 img, .t-foto3 img{
+        width: 100%;
+        height: auto;
+    }
+
+}

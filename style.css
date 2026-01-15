@@ -345,15 +345,17 @@ footer img{
     .designer-info{
         width: auto;
         height: auto;
+        padding-left: 0;
     }
     .designer-info h2{
         font-size: 50px;
         width: auto;
-        padding: 1rem;
+        padding: 2rem;
+        margin: 3rem 0 1rem 0;
     }
     .designer-info p{
         width: auto;
-        padding: 1rem;
+        padding: 2rem;
     }
     .designer img{
         position: static;
