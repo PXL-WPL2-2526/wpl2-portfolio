@@ -272,6 +272,20 @@ footer img{
     gap: 1rem;
     width: 407px;
 }
+.reflectie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reflectie a:hover{
+    text-decoration: underline;
+}
+.reflectie a{
+    font-size: 24px;
+    color: #434834;
+    text-decoration: none;
+}
 
 
 /* -- MOBILE -- */
@@ -361,15 +375,6 @@ footer img{
         position: static;
         margin-top: 3rem;
     }
-    .reflectie{
-        display: flex;
-    }
-    .reflectie a{
-        font-size: 24px;
-        color: #434834;
-        text-decoration: none;
-    }
-
 }
 
 
