@@ -361,7 +361,14 @@ footer img{
         position: static;
         margin-top: 3rem;
     }
-
+    .reflectie{
+        display: flex;
+    }
+    .reflectie a{
+        font-size: 24px;
+        color: #434834;
+        text-decoration: none;
+    }
 
 }
 
