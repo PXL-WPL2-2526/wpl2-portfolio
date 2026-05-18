@@ -17,7 +17,7 @@
 .portfolio h1{
   font-size: 270px;
   font-weight: lighter;
-  font-family: var(--font-family-aref);
+  font-family: var(--font-family-aref), sans-serif;
   width: 70%;
   position: absolute;
   top: 250px;

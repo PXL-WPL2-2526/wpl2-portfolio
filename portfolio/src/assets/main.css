@@ -18,5 +18,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: var(--font-family-aref);
+  font-family: var(--font-family-Arimo), sans-serif;
+}
+html{
+    scroll-behavior: smooth;
 }

@@ -28,7 +28,7 @@ nav ul{
 nav a{
   font-size: 30px;
   text-decoration: none;
-  color: #434834;
+  color: var(--dark-green);
 }
 a:hover{
   text-decoration: underline;

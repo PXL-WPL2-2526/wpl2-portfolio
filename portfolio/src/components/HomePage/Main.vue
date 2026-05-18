@@ -66,7 +66,7 @@
 }
 .vibes h2{
   font-size: 158px;
-  font-family: var(--font-family-aref);
+  font-family: var(--font-family-aref), sans-serif;
   width: 50px;
   position: absolute;
   top: 2850px;
@@ -146,7 +146,7 @@
 .button-skills a{
   text-decoration: none;
   font-size: 128px;
-  font-family: var(--font-family-aref);
+  font-family: var(--font-family-aref), sans-serif;
   color: var(--dark-green);
   border: 7px solid var(--dark-green);
   padding: 2rem 4rem;

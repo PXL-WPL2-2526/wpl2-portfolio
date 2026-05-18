@@ -3,6 +3,10 @@
 </script>
 
 <template>
+  <div class="bloem4">
+    <img src="@/assets/img/bloem.png" alt="bloem">
+  </div>
+
   <footer>
     <div class="gegevens">
       <div class="nummer">
@@ -24,6 +28,14 @@
 </template>
 
 <style scoped>
+.bloem4{
+  position: relative;
+}
+.bloem4 img{
+  position: absolute;
+  bottom: 1rem;
+  right: 2rem;
+}
 footer{
   display: flex;
   flex-direction: column;
