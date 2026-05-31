@@ -58,7 +58,7 @@ const afbeeldingen = [
 
 .carwash h2 {
   font-family: "Aref Ruqaa", sans-serif;
-  font-size: 128px;
+  font-size: 100px;
 }
 
 .car-afbeeldingen {
