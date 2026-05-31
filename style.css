@@ -14,54 +14,8 @@ body{
 li{
     list-style: none;
 }
-.bloem1{
-    position: relative;
-}
-.bloem1 img{
-    position: absolute;
-    top: 50px;
-    left: 100px;
-    width: 407px;
-    height: 547px;
-}
-.bloem2{
-    position: relative;
-}
-.bloem2 img{
-    position: absolute;
-    top: 630px;
-    left: 1450px;
-    width: 407px;
-    height: 547px;
-    transform: scaleX(-1);
-}
-.pijl-boven{
-    position: fixed;
-}
-.pijl-boven img{
-    position: absolute;
-    top: 950px;
-    left: 1770px;
-    width: 100px;
-    height: 100px;
-}
-nav{
-    position: absolute;
-    right: 70px;
-    top: 30px;
-}
-nav ul{
-    display: flex;
-    gap: 5rem;
-}
-nav a{
-    font-size: 30px;
-    text-decoration: none;
-    color: #434834;
-}
-a:hover{
-    text-decoration: underline;
-}
+
+
 .portfolio{
     height: 100vh;
     display: flex;

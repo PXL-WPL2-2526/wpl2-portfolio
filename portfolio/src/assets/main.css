@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&display=swap');
+:root{
+  --light-green: #767A61;
+  --dark-green: #434834;
+
+  --beige: #EAE3D3;
+
+  --black: #000000;
+  --white: #FFFFFF;
+
+  --font-family-aref: 'Aref Ruqaa', sans-serif;
+  --font-family-Arimo: 'Arimo', sans-serif;
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family-Arimo), sans-serif;
+  color: var(--dark-green);
+  list-style: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+.pijl-boven{
+  position: fixed;
+}
+.pijl-boven img{
+  position: absolute;
+  top: 950px;
+  left: 1770px;
+  width: 100px;
+  height: 100px;
+}
