@@ -8,6 +8,8 @@
       <li><RouterLink to="/Skills">Skills</RouterLink></li>
       <li><RouterLink to="/Realisaties">Realisaties</RouterLink></li>
       <li><RouterLink to="/Stage">Buitenlandse Stage</RouterLink></li>
+      <li><RouterLink to="/WPL1">WPL1</RouterLink></li>
+      <li><RouterLink to="/WPL2">WPL2</RouterLink></li>
     </ul>
   </nav>
 </template>

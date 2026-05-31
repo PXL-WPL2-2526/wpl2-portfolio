@@ -24,6 +24,16 @@ const router = createRouter({
       name: 'Stage',
       component: () => import('@/Pages/Stage.vue'),
     },
+    {
+      path: '/WPL1',
+      name: 'WPL1',
+      component: () => import('@/Pages/WPL1.vue'),
+    },
+    {
+      path: '/WPL2',
+      name: 'WPL2',
+      component: () => import('@/Pages/WPL2.vue'),
+    },
   ],
 })
 
